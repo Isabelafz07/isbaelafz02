@@ -5,8 +5,20 @@
     --branco:  rgb(184, 140, 214);
 }
 
-h1 {
-    background-color: rgb(184, 140, 214);
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+}
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    display: flex;
+    align-items: center;
 }
 
 
